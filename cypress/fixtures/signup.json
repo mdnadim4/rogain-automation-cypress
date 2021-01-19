@@ -1,0 +1,13 @@
+{
+    "firstName": "William",
+    "lastName": "Smith",
+    "address": "771  Godfrey Road",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10004",
+    "phoneNumber": "212-530-3523",
+    "month": "April",
+    "year": "1990",
+    "email": "qatestnadim@gmail.com",
+    "password": "Qatest@123"
+}

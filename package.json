@@ -1,0 +1,18 @@
+{
+  "name": "exuviance",
+  "version": "1.0.0",
+  "description": "Login and signup with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [],
+  "author": "Nadim Mahmud",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^6.2.1",
+    "cypress-cucumber-preprocessor": "^4.0.0",
+    "prettier": "^2.2.1"
+  }
+}
