@@ -26,7 +26,8 @@
 
 
 Cypress.Commands.add('login', (username, password) => {
-
+  cy.clearCookies()
+  cy.clearLocalStorage()
   cy.get('#dwfrm_login_username').type(username)
   cy.wait(2000)
   cy.get('#dwfrm_login_password').type(password)
